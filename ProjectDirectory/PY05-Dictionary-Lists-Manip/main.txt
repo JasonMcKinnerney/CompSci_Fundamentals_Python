@@ -1,0 +1,45 @@
+#########################
+# Name: Jason McKinnerney
+# Coding 06 - Lists and Dictionaries
+# Purpose - Take the 9 orbiting planets around the sun and list
+# information about them over three functions outlined below
+########################$
+
+
+# write a function called planets_list()
+# pass it the planets dictionary and status list
+# return the list of planets that are true planets
+# base on the status list
+# you may NOT use python methods; min, max, sum, or mean
+# you must use a loop to do this
+def planets_list(sol, status)
+
+
+!!!!!!So I am defining the function planets_list() above, you can see the directions using sol and status in the above comments.
+
+LOGIC-----I need to import the dictionary sol and list status. COMPLETED
+----------Take the key from the dictionary "sol" and match it with the the corresponding index in the below list "status" STARTING BELOW
+----------Then return all keys with "True" Boolean logic answers
+----------Pseudo code may work in communication
+
+for key in sol:
+	for 
+
+
+
+
+
+
+def main():
+    # do not modify this function except while coding to help you figure
+    # out the functions you are writing. before you submit, main() must be
+    # returned to exactly this state or the assignment is an automatic 0
+    
+    sol = {"Uranus":[2750, 3000, 2880], "Mercury":[46, 70, 57], "Earth":[147, 152, 150], "Venus":[107, 109, 108], "Mars":[205, 249, 228], "Saturn":[1350, 1510, 1430], "Jupiter":[741, 817, 779], "Pluto":[4440, 7380, 5910], "Neptune":[4450, 4550, 4500]}
+    status = [True, True, True, True, True, True, True, False, True]
+    # note that the "arrays" above are what are known as "parallel arrays"
+    # this means that have values that relate to each other. The first "True"
+    # in status relates to "Uranus" in sol. The second "True" to "Mercury", etc.
+    
+    
+main()
